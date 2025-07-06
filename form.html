@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+</head>
+<body>
+  <div class="parent-container">
+  <div class="container">
+<form onsubmit="alert('Thanks for your intrest');return true;">
+  <h2>Application Form</h2>
+  <div class="input-field">
+  <input type="text" id="fullname" required >
+  <label for="fullname">Fullname</label>
+  </div>
+  <div class="input-field">
+  <input type="email" id="email"required>
+  <label for="email">Email</label>
+  </div>
+  <div class="input-field">
+  <input type="tel" id="phone-number"required>
+  <label for="phone-number">Phone Number</label>
+  </div>
+  <div class="input-field">
+  <input type="text" id="password" required>
+  <label for="password">Create a Password</label>
+  </div>
+    <div class="options">
+    <label><input type="checkbox"> Remember</label>
+    <a href="#">Forget password</a>
+  </div>
+    <button type="submit">Signup Now</button>
+
+</form>
+ <p class="new"> Already a member? <a href="login.html">Login here</a></p>
+</div>
+ <div class="right-cont">
+</div>
+</div>
+</body>
+</html>
