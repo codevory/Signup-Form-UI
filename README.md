@@ -13,7 +13,7 @@ A modern and responsive **Signup Form UI** built entirely using **HTML** and **C
 
 ![Signup Form Preview](screenshot.png)
 
-> *(Replace `preview-url-here` with a GitHub-hosted screenshot or image of your form)*
+
 
 ## 🧾 Form Fields
 
